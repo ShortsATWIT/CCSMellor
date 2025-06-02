@@ -1,7 +1,3 @@
-Welcome to my website!
+Welcome to my Repository
 
-This is an encyclopedia I created for my cat Audrey. It includes a main page, about page, gallery page, and fun fact page. Each of these pages have different attributes about my cat.
-
-I used a couple different shades of blue because I thought it made the design look clean. 
-
-I also included a list on the fun facts page, image printing on gallery, a blockquote on main page, and an article on the about page for a smoother look.
+This is where I will upload all labs for Cloud Computing Systems.
