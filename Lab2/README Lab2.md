@@ -4,6 +4,7 @@ Lab 2:
 I added 5 different paths using the new "app.js" file and used "package.json" to automate the process. I was able to get it to run on my laptop through the "localhost:3000" domain.
 
 I have 5 different paths:
+
 http://localhost:3000/about/Audrey: Should bring up "You're viewing the about page for Audrey."
 
 http://localhost:3000/greet?name=Steven: Should bring up "Hello, Steven! Welcome to Audrey's site."
