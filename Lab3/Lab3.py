@@ -6,12 +6,13 @@ from typing import Optional, List
 
 app = FastAPI()
 
+# Run Lab3.py (uvicorn Lab3:app --reload)
+# Go to (http://127.0.0.1:8000)
+
 # Mount static folder for CSS
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# -----------------------
 # Root: HTML with 15 links
-# -----------------------
 @app.get("/", response_class=HTMLResponse)
 def read_root():
     html = """
@@ -49,7 +50,6 @@ def read_root():
     """
     return html
 
-# -----------------------
 # Route 1: GET with query params
 @app.get("/items/")
 def get_items(q: Optional[str] = None, limit: int = 10):
