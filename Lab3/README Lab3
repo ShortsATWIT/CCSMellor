@@ -1,1 +1,11 @@
+Welcome to my FastAPI web app!
 
+This project is an interactive explorer for 15 API routes I created using FastAPI. The routes demonstrate different 
+types of web requests such as GET and PUT, and includes query string parameters,
+path parameters, and JSON body inputs. The homepage displays clickable links for each route, 
+making it easy to test and see how each one works directly in the browser.
+
+I used a few shades of blue in the `styles.css` file to keep the design clean and easy to read (if you can't tell I'm a fan of
+blue). Each link opens in a new tab so you can explore the responses one by one.
+
+My favorite part was setting up the route descriptions and seeing everything neatly displayed on the homepage.
