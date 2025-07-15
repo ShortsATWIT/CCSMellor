@@ -6,6 +6,7 @@ from typing import List
 app = FastAPI(title="Guitar Shop API")
 
 # Use (uvicorn main:app --reload) to run
+# Link (http://127.0.0.1:8000/docs)
 
 def get_connection():
     return mysql.connector.connect(
